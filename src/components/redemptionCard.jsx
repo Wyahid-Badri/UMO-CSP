@@ -1,5 +1,5 @@
 import "../App.css"
-function RedemptionCard(){
+function RedemptionCard(props){
     return(
         <div id="redemptionCard">
             <table id="redemptionTable">
@@ -24,7 +24,6 @@ function RedemptionCard(){
                     <td>Retailer: Walmart <br/> Store ID: 321 <br/> Bronx, NY</td>
                 </tr>
             </table>
-            <button id="clipBtn">Unclip Offer</button>
         </div>
     )
 }
